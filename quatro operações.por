@@ -1,27 +1,27 @@
 
 programa {
   funcao inicio() {
-    inteiro numero1, numero2, sub
+    inteiro numero1, numero2, op
 
-    escreva("Digite o primeiro n˙mero: ")
+    escreva("Digite o primeiro n√∫mero: ")
     leia(numero1)
 
-    escreva("Digite o segundo n˙mero: ")
+    escreva("Digite o segundo n√∫mero: ")
     leia(numero2)
 
-    escreva("Escolha a operaÁ„o: (1) para SOMA, (2) para SUBTRA«√O, (3) para DIVIS√O e (4) para multiplicaÁ„o: ")
+    escreva("Escolha a opera√ß√£o: (1) para ADI√á√ÇO, (2) para SUBTRA√á√ÉO, (3) para MULTIPLICA√á√ÇO, (4) para DIVIS√ÇO: ")
     leia(sub)
 
-    se (sub == 2) {
-       escreva("O resultado da subtraÁ„o È: ", numero1 - numero2)
-    } senao se (sub == 1) {
-       escreva("O resultado da soma È: ", numero1 + numero2)
-    } senao se (sub == 3){
-       escreva("O resultado da divis„o È: ", numero1 / numero2)
-    } senao se (sub == 4) {
-      escreva("O resultado da multiplicaÁ„o È: ", numero1 * numero2)
+    se (op == 1) {
+       escreva("O resultado da adi√ß√£o √©: ", numero1 + numero2)
+    } senao se (op == 2) {
+       escreva("O resultado da subtra√ß√£o √©: ", numero1 - numero2)
+    } senao se (op == 3){
+       escreva("O resultado da multiplica√ß√£o √©: ", numero1 * numero2)
+    } senao se (op == 4) {
+      escreva("O resultado da divis√£o √©: ", numero1 / numero2)
     } senao{
-      escreva("OpÁ„o inv·lida!")
+      escreva("Op√ß√£o inv√°lida!")
     }
   }
 }
