@@ -10,7 +10,7 @@ programa {
     leia(numero2)
 
     escreva("Escolha a operação: (1) para ADIÇÂO, (2) para SUBTRAÇÃO, (3) para MULTIPLICAÇÂO, (4) para DIVISÂO: ")
-    leia(sub)
+    leia(op)
 
     se (op == 1) {
        escreva("O resultado da adição é: ", numero1 + numero2)
